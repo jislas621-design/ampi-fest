@@ -1,11 +1,10 @@
 {
-  "name": "Ampi Fest – 15 Años",
-  "short_name": "Ampi Fest",
+  "name": "Ampi Fest",
+  "short_name": "AmpiFest",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#ec4899",
-  "orientation": "portrait",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "/icon-192.png",
