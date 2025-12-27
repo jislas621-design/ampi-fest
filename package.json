@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
+  "dev": "vite",
+  "build": "npx --yes --package vite vite build",
+  "preview": "vite preview"
 },
   "dependencies": {
     "firebase": "^10.7.1",
