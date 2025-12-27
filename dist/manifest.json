@@ -1,7 +1,6 @@
 {
   "name": "Ampi Fest – 15 Años",
   "short_name": "Ampi Fest",
-  "description": "Control de bebidas – Ampi XV",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

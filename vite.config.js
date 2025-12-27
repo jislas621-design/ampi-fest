@@ -1,10 +1,34 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  build: {
-    outDir: "dist"
-  },
-  server: {
-    port: 5173
-  }
+  plugins: [
+    react(),
+    VitePWA({
+      registerType: "autoUpdate",
+      includeAssets: ["favicon.svg"],
+      manifest: {
+        name: "Ampi Fest – 15 Años",
+        short_name: "Ampi Fest",
+        start_url: "/",
+        display: "standalone",
+        background_color: "#000000",
+        theme_color: "#EC4899",
+        orientation: "portrait",
+        icons: [
+          {
+            src: "/icon-192.png",
+            sizes: "192x192",
+            type: "image/png"
+          },
+          {
+            src: "/icon-512.png",
+            sizes: "512x512",
+            type: "image/png"
+          }
+        ]
+      }
+    })
+  ]
 });
