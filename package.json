@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "npx vite build",
     "preview": "vite preview"
-  },
+},
   "dependencies": {
     "firebase": "^10.7.1",
     "react": "^18.2.0",
