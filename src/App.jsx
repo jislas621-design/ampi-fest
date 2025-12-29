@@ -14,7 +14,7 @@ const EVENTO = "✨ Ampi Fest – 15 Años ✨";
 const BEBIDAS = ["Viña", "Lata", "Gancia", "Fernet", "Gaseosa"];
 
 const CLAVE_BARMAN = "barman123";
-const CLAVE_ORGANIZADOR = "orga123";
+const CLAVE_ORGANIZADOR = "orga1234";
 
 export default function App() {
   const [rol, setRol] = useState(null);
