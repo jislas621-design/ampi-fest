@@ -76,6 +76,7 @@ export default function App() {
 
     if (bebida === "Gaseosa") estado = "aprobada";
     else if (totalAlcohol < 2) estado = "aprobada";
+    else if (totalAlcohol < 3) estado = "aprobada";
 
     await addDoc(collection(db, "solicitudes"), {
       nombre,
