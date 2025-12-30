@@ -61,7 +61,7 @@ export default function App() {
     // 🔒 Guardar nombre solo una vez
     if (!nombreBloqueado) {
       localStorage.setItem("nombreInvitado", nombre);
-      setNombreBloqueado(true);
+      setNombreBloqueado(false);
     }
 
     // 🔢 Contar TODAS las bebidas alcohólicas del invitado
